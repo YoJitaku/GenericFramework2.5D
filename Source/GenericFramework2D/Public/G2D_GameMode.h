@@ -4,13 +4,13 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
-#include "G2D_GameModeCPP.generated.h"
+#include "G2D_GameMode.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class GENERICFRAMEWORK2D_API AG2D_GameModeCPP : public AGameModeBase
+class GENERICFRAMEWORK2D_API AG2D_GameMode : public AGameModeBase
 {
 	GENERATED_BODY()
 	

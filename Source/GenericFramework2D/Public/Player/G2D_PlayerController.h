@@ -24,7 +24,7 @@ public:
 protected:
 	virtual void BeginPlay() override;
 	virtual void SetupInputComponent() override;
-	class USpringArmComponent* GetPawnSpringArm() const;
+	// class USpringArmComponent* GetPawnSpringArm() const;
 	
 private:
 	UPROPERTY(EditAnywhere, Category = "Input")
@@ -33,16 +33,16 @@ private:
 	UPROPERTY(EditAnywhere, Category = "Input")
 	TObjectPtr<UInputAction> MoveAction;
 	
-	UPROPERTY(EditAnywhere, Category = "Input")
+	/*UPROPERTY(EditAnywhere, Category = "Input")
 	TObjectPtr<UInputAction> CameraRotate;
 
 	UPROPERTY(EditAnywhere, Category = "Input")
 	TObjectPtr<UInputAction> CameraZoom;
 
 	UPROPERTY(EditAnywhere, Category = "Input")
-	float CameraZoomSpeed = 100.f;
+	float CameraZoomSpeed = 100.f;*/
 	
 	void Move(const FInputActionValue& InputActionValue);
-	void RotateCamera(const FInputActionValue& InputActionValue);
-	void ZoomCamera(const FInputActionValue& InputActionValue);
+	/*void RotateCamera(const FInputActionValue& InputActionValue);
+	void ZoomCamera(const FInputActionValue& InputActionValue);*/
 };

@@ -4,13 +4,13 @@
 
 #include "CoreMinimal.h"
 #include "AbilitySystemComponent.h"
-#include "G2D_AbilitySystemComponentCPP.generated.h"
+#include "G2D_AbilitySystemComponent.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class GENERICFRAMEWORK2D_API UG2D_AbilitySystemComponentCPP : public UAbilitySystemComponent
+class GENERICFRAMEWORK2D_API UG2D_AbilitySystemComponent : public UAbilitySystemComponent
 {
 	GENERATED_BODY()
 	
